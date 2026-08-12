@@ -28,3 +28,65 @@ Sample input: pelargonium
 Expected output: Spathiphyllum! Not pelargonium!
 Sample input: Spathiphyllum
 Expected output: Yes - Spathiphyllum is the best plant ever
+
+plant = input()
+words = plant.split()
+print(words)
+if "lily" in words:
+    print('no, I want a big Peace Lily')
+elif 'Lily' in words:
+    print('Lily is a best plant')
+elif 'Lily' not in words:
+    print(f'Lily! not {words}')
+
+3. secret_number, magician , haha! , well done!
+4. mississippi! awesome! hide and seek!
+import time
+for second in range(1,6):
+    print(f'{second} Mississippi')
+    time.sleep(1)
+print('Ready or not, here I come!')
+
+5. the problem like grocery shop enumeration. but the code they given to experiment is used the IF and CONTINUE redundantly..
+argest_number = -99999999
+counter = 0
+
+number = int(input("Enter a number or type -1 to end program: "))
+
+while number != -1:
+    if number == -1:
+        continue
+    counter += 1
+
+    if number > largest_number:
+        largest_number = number
+    number = int(input("Enter a number or type -1 to end the program: "))
+
+if counter:
+    print("The largest number is", largest_number)
+else:
+    print("You haven't entered any number.")
+
+6. word = input('Please Enter the word: ')
+while True:
+    word = input("I will not stop asking until you give a correct word!\nTry again: ")
+    if word == 'chupacabra':
+        print('You\'ve successfully left the loop.')
+        break
+7. vowel eater:
+word_without_vowels = ""
+
+user_word = input("Enter a word: ") # Prompt the user to enter a word
+user_word = user_word.upper() # and assign it to the user_word variable.
+vowels = ['A','E','I','O','U']
+
+for letter in user_word:
+    if letter not in vowels:
+        word_without_vowels += letter
+    else:
+        continue
+print(word_without_vowels)
+    # Complete the body of the loop.
+
+# Print the word assigned to word_without_vowels.
+
