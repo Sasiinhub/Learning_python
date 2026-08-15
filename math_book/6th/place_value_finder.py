@@ -1,6 +1,6 @@
 
-place_names = ('ones','tens','hundreds','thousands','ten thousands','lakhs','Ten lakhs')
-place_values = (1,10,100,1000,10000,100000,1000000)
+place_names = ('ones','tens','hundreds','thousands','ten thousands','lakhs','Ten lakhs','Crores','Ten crores','Hundred crores','Thousand crores')
+place_values = (1,10,100,1000,10000,100000,1000000,10000000,100000000,1000000000,10000000000)
 user_input_inte = int(input('Enter the number you want to expand: '))
 user_input =str(user_input_inte)
 
