@@ -1,4 +1,4 @@
-Repository: Sasiinhub/Leaarning_python
+Repository: Sasiinhub/Learning_python
 
 License mapping
 - Code (scripts, exercises, projects): MIT — see /LICENSE
@@ -11,9 +11,6 @@ Third-party resources and attribution
 
 - Cisco — Official materials are proprietary unless explicitly licensed. I will only link to Cisco resources and will not upload proprietary slides/PDFs without permission.
   - Cisco site: https://www.cisco.com/
-
-- Images / other resources
-  - [filename or path] — author/name — license/url
 
 Contact / copyright holder
 - Copyright (c) 2026 Sasiinhub
