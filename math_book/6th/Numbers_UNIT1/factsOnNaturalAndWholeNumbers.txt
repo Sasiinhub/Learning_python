@@ -1,0 +1,40 @@
+facts on Natural and Whole Numbers:
+
+• The smallest natural number is 1.
+• The smallest whole number is 0.
+• Every number has a successor. The number that comes just after the given number
+is its successor.
+• Every number has a predecessor. The number 1 has a predecessor in W namely ‘0’,
+but it has no predecessor in N. The number ‘0’ has no predecessor in W.
+• There is an order to numbers. By comparing the two given numbers the larger of the
+two can be identified.
+• Numbers are endless. By adding 1 to any chosen large number, the next number
+can be found.
+
+properties os whole numbers:
+
+Commutativity of addition and multiplication:
+When several numbers are added, the order in which the numbers are added does not
+matter. This is called associativity of addition. Similarly, when several numbers are to be
+multiplied, the order in which the numbers are multiplied does not matter. This is called
+associativity of multiplication.
+
+Associativity of addition and multiplication:
+When several numbers are added, the order in which the numbers are added does not
+matter. This is called associativity of addition. Similarly, when several numbers are to be
+multiplied, the order in which the numbers are multiplied does not matter. This is called
+associativity of multiplication.
+
+Distributivity of multiplication over addition or subtraction:
+It can be noted that the product of a number and a sum of numbers can be written as the
+sum of two products. Similarly, the product of a number and a number got by subtraction
+can be written as the difference of two products.
+18 × 6 = (10 + 8) × 6
+It is to be noted that addition does not distribute over multiplication.
+For example,
+10 + (10 × 5) = 60 and (10 + 10) × (10 + 5) = 300 are not equal.
+
+Identity for addition and multiplication:
+When zero is added to any number, we get the same number. Similarly, when we multiply
+any number by 1, we get the same number. So, zero is called the additive identity and one
+is called the multiplicative identity for whole numbers.
