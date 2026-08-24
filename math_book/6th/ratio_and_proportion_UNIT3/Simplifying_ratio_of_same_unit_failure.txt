@@ -1,0 +1,66 @@
+#failure
+
+
+
+print("To simplyfy the two quantity ratio we can write in fraction form!")
+numerator = int(input("Enter the numerator: "))
+denominator =  int(input("Enter the denominator: "))
+
+minimal_one = min(numerator, denominator)
+maximum_one = max(numerator, denominator)
+
+
+
+divisor = maximum_one - minimal_one
+times_of_numer = 0
+times_of_denomin = 0
+
+i = 0
+while True:
+    
+    if i <= 20:
+        if divisor * i == numerator:        #maximum_one: #if minimal_one * i == maximum_one:
+            times_of_numer = i                              #print(f'1 : {i}')
+            break
+        else:
+            i += 1                                         # i = i+1
+            continue
+    else:
+        break
+i = 0
+while True:
+    
+    if i <= 20:
+
+        if divisor * i == denominator:
+            times_of_denomin = i  
+            break
+        else:
+            i += 1   
+            continue
+    else:
+        break
+print(f"{times_of_numer} : {times_of_denomin}")
+
+
+
+
+
+#Tryings:
+
+
+#else:
+#    print("The ratio is not have same unit")
+
+# this is only for same unit like 20:5 , here both 'must' multiplied times 5.
+
+
+# 2 tring:
+
+# divisor = 2 (by the thought of halving. 
+# divisor = maximum_one - minimal_one (one way of try, but fails.. because unknowingly thinking the given numbers are exist with the same ratio like that.. 
+# both works only some numbers and ratios only.
+# the result is knowing the necessity of common 
+#if numerator % divisor == 0 and denominator % divisor == 0:
+
+
