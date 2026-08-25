@@ -11,10 +11,11 @@ denominator = int(input("Enter denominator value: "))
 #greater_one = max(numerator, denominator)
 
 #gcd = greater_one % smaller_one 
+
 numer_backup = numerator
 denom_backup = denominator
 
-# Actual stugle remover for this is Euclidean Algo
+# Actual strugle remover for this is Euclidean Algo
 # but in book they doesnt provide how they find the common divisor. but used. how about the childs!
 #the algo:  keep subtracting(instead of dividing) the smaller from the larger until they became same!
 # in future, 1. by listing factors by hand 2. prime factors

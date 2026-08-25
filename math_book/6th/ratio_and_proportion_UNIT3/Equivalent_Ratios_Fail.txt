@@ -1,0 +1,78 @@
+#3.2.5
+#finding which ratio is greater
+
+import Simplifying_ratio_as_function as sf
+
+# Scenario_idly batter compare with two batches
+# ignoreing water and fenugreek
+
+#to find how much simplest ratio of black_gram added in first batch
+rice = int(input("How much rice you added: "))
+black_gram = int(input("How much rice you added black_gram with same measuring instrument/gauge: "))
+total = rice + black_gram
+
+
+#to find how much simplest ratio of black_gram added in second batch
+rice_2 = int(input("How much rice you added in this second batch: "))
+black_gram_2 = int(input("How much rice you added black_gram with same measuring instrument/gauge in this batch: "))
+total_2 = rice_2 + black_gram_2
+
+
+# how much blackgram added on each batch if the two batches total(denominator) are same:
+#tried:def make_the_denominator_even (batch_one, batch_two)
+
+numerator, denominator = sf.simplify_ratio(black_gram, total)
+numerator_2, denominator_2 = sf.simplify_ratio(black_gram_2, total_2)
+
+simplified_batch1 = [numerator, denominator]
+simplified_batch2 = [numerator_2, denominator_2]
+
+
+
+
+list_of_numerator = []
+list_of_numerator2 = []
+
+list_of_denominator = []
+list_of_denominator2 = []
+
+
+
+k = -1
+l = -1
+m = 2
+found = False
+while True:
+    if found == False:
+        for i in  list_of_denominator:
+            for j in list_of_denominator2:
+
+                if i != j:
+                    j += 1
+                else:
+                    found = True
+                    print("indices are k and l")
+                    break
+            if found:
+                break
+            k+=1
+
+        list_of_numerator.append(numerator * m)
+        list_of_denominator.append(denominator * m)
+
+
+        list_of_numerator2.append(numerator_2 * m)
+        list_of_denominator2.append(denominator_2 * m)
+
+        m += 1
+    else:
+        break
+
+if list_of_numerator[k] > list_of_numerator2[l]:
+    print(f"we can conclude that \nbatch one - {numerator}:{denominator} is greater black gram ratio than \nbatch two {numerator2} : {denominator2}")
+elif list_of_numerator[k] < list_of_numerator2[l]:
+    print(f"we can conclude that \nbatch one - {numerator}:{denominator} is lesser black gram ratio than \nbatchtwo {numerator2} : {denominator2}")
+else:
+    print(f"we can conclude that \nbatch one - {numerator}:{denominator} is equal black gram ratio to \nbatch two {numerator2} : {denominator2}")
+
+
