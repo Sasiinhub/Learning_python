@@ -1,0 +1,13 @@
+print('1. x + 3 = 8') 
+print('2. 2 + y = 9')
+print('3. 11 - 5 = z')
+
+x = 8 - 3 because the lfet side weight equal to right side weight.
+x = 5
+so, 5 + 3 = 8.
+
+y = 9 - 2
+y = 7
+so, 2 + 7 = 9.
+
+
