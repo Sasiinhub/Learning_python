@@ -12,6 +12,15 @@ Third-party resources and attribution
 - Cisco — Official materials are proprietary unless explicitly licensed. I will only link to Cisco resources and will not upload proprietary slides/PDFs without permission.
   - Cisco site: https://www.cisco.com/
 
+- Department of School Education - A publication under free text book programme of Government of Tamil Nadu
+  - Thanks to the Government for make information available to all.
+  
+  - https://www.tntextbooks.in/p/school-books.html (aware of adds)
+  - https://textbookcorp.in/ 
+  - https://tnschools.gov.in/welcome
+  - https://www.india.gov.in/category/education-learning/subcategory/school-education/details/website-of-tamil-nadu-textbook-corporation
+These sites are for just refference. if any of the sites doesn't maintained safely, I am not responsible for that.
+
 Contact / copyright holder
 - Copyright (c) 2026 Sasiinhub
 - GitHub: https://github.com/Sasiinhub
