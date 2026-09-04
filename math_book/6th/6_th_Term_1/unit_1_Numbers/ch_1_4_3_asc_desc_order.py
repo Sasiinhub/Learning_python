@@ -61,5 +61,5 @@ current, peak = tracemalloc.get_traced_memory()
 tracemalloc.stop()
 cpu_end = time.process_time()
 time_taken = cpu_end - cpu_start
-print(f'{time_taken:.8f}')
+print(f'\n\n\nTime taken: {time_taken:.8f}')
 print(f'bytes:\ncurrent: {current}\npeak: {peak}')

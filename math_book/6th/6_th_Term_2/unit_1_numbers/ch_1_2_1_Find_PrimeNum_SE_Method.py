@@ -22,25 +22,24 @@ def call_for_prime_list(limit): # make this line active if it need standalone fi
     for number in range(1,limit+1):
         numbers.append(number)
     #print(numbers, '\n')
-
-    del numbers[3::2]
-    prime = [] #numbers.copy
-    for i in numbers:
-        if i == 1:
-            continue
-        prime = call_delete_multiples(numbers, i) # aware: it deletes all of its multiples in every loop
+    del numbers[0]
+    del numbers[2::2]
+    #print(numbers)
+    primes = numbers # just name change but both points the same object            #numbers.copy 
+    for i in primes:
+        primes = call_delete_multiples(primes, i) # aware: it deletes all of its multiples in every loop
         #print(prime)
         #print(f'for{i}')
         #print()
     
-    print(f'Prime numbers upto {limit}:\n{prime}')
-    print(f'Total prime numbers are {len(prime)-1}')
-    return prime
+    print(f'Prime numbers upto {limit}:\n{primes}')
+    print(f'Total prime numbers are {len(primes)}')
+    return primes
 
 
 '''
 learnings:
-    * missed to note the shift of numbers every time calling the delete , 
+    * missed to note the shift and shrink of numbers every time calling the delete , 
      the delete deletes the all multiples of i through out the list in first attempt. so,
      the next loop doesn't contains all of the multiples like previous original list.
 
