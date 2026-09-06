@@ -1,0 +1,10 @@
+
+* to find common factor we can use the divisability tests!
+ like 2734 -> ending is 4 it can be divisable by2.
+  2710 -> it can be divisable by 5 or 10.
+ the book has the guidens upto 11.
+
+* situation1  : 63 laddu, 43 peanut_cake , what is the greatest nnumber of families that can distribute?  
+
+* situation2 : rods of length 8 feet and 12 feet. cut equal length so 
+ 

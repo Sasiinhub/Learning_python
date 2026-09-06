@@ -52,10 +52,13 @@ else:
 
 
     '''
+    # Composite Factor also we can convert as prime factors! because they say any number is formed using prime! 
+      so for conclusion the further prime factorisation chapter teaches how we get more than two prime factors for any number!(need to know the usage)
+    
     # Finding a number is a composite helps to arrange things as a grid in equal way !
     # as is prime also  helps use to know there is only two way to arrange things to get equal grid.
 
-    # we can find frime by dividing without fraction. which comes next.
+    # we can find prime by dividing without fraction. which comes next.
     '''
 
 
