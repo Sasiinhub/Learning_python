@@ -1,8 +1,8 @@
-from ch_1_2_1_Find_PrimeNum_SE_Method import  call_for_prime_list
+from ch_1_2_1_Find_PrimeNum_SE_Method import  call_for_Prime_List
 
-def call_for_Prime_Factorisation(number):
+def call_for_Prime_Factors(number):
     
-    prime_numbers = call_for_prime_list(number)
+    prime_numbers = call_for_Prime_List(number)
 
     #print(prime_numbers)
     prime_factors = []
@@ -38,11 +38,11 @@ def call_for_Prime_Factorisation(number):
 
            
         if divident[i] % prime == 0: 
-            divident.append(divident[i] // prime)
+            divident.append(divident[-1] // prime)
             prime_factors.append(prime)
             # number -= divident[-1] # wrong try
             number = divident[-1]
-            print(prime_factors[-1], '/```', divident[i],'```')
+            print(prime_factors[-1], '/```', divident[-2],'```')
             i += 1    
             continue
         elif j < len(prime_numbers):
@@ -59,7 +59,7 @@ if __name__ == "__main__":
     number = int(input('Enter a number to get prime factorisation: '))
     num_copy = number # int is immutable so here both not have same reference 
 
-    prime_factors = call_for_Prime_Factorisation(number)
+    prime_factors = call_for_Prime_Factors(number)
     print('Prime Factors: ')
     print(*prime_factors, sep='*')
 
