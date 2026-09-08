@@ -26,7 +26,7 @@ def call_for_HCF(numbers): # user need to provide list as a argument
                     #print('enters',j)
                     dividents = new_dividents
                     Common_Prime_Factors.append(prime_list[i])
-               
+
                     i -= 1 
             else:
                 #i += 1
@@ -35,13 +35,41 @@ def call_for_HCF(numbers): # user need to provide list as a argument
         i += 1
     if len(Common_Prime_Factors) == 0:
         HCF = 1
-        print(f'here is no CPF {Common_Prime_Factors} among those. so')
+        print(f'\nhere is no CPF {Common_Prime_Factors} among those. so\n these are called co-primes or relatively prime.')
     else:
         HCF = Common_Prime_Factors[0]
         for i in range(1, len(Common_Prime_Factors)):
             HCF = HCF * Common_Prime_Factors[i]
-        
+        print(f'\nHCF({numbers}) = {HCF}')
     return HCF
+
+def call_for_CPF(numbers): # Common Prime Factors alone
+    dividents = numbers
+    Common_Prime_Factors = []
+    prime_list = call_for_Prime_List(max(numbers))
+
+    i = 0
+    while i < len(prime_list):
+        j = 0
+
+        new_dividents = []
+
+        while j < len(dividents):
+            if dividents[j] % prime_list[i] == 0:
+                new_dividents.append(dividents[j] // prime_list[i])
+                if j == len(dividents)-1:
+                    dividents = new_dividents
+                    Common_Prime_Factors.append(prime_list[i])
+
+                    i -= 1 
+            else:
+                break
+            j += 1
+        i += 1
+    if Common_Prime_Factors == []:
+        return 
+    else:
+        return Common_Prime_Factors
 
 if __name__ == '__main__':
 
@@ -60,7 +88,9 @@ if __name__ == '__main__':
             sys.exit()
 
     HCF = call_for_HCF(numbers)
+    CPF = call_for_CPF(numbers)
     print(f'HCF is: {HCF}')
+    print(f'CPF is: {CPF}')
 
 '''
     print(f'\nRest_Dividents: {dividents}\n')

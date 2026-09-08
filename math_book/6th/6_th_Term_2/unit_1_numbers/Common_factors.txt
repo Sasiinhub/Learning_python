@@ -8,12 +8,62 @@
 
 * situation2 : rods of length 8 feet and 12 feet. cut equal longest common length.
 
+facts of factor:
+
     Factors = possible choices
     
     common factors =  shared choices
     
-    Highest common factors = best option
+    Highest common factors = best option from the shared choices
 
         hcf = gcf = gcd # all are same
+
+        HCF (1, x) = 1
+
+        HCF (x, y) = x, if y is a multiple of x. (HCF (3, 6) = 3
+
+        if the HCF of two numbers is 1, the numbers said coprimes or relatively prime. the numbers can be primes, or composites, or both.
+
+
+    Every number has two factors that is 1 and the number itself.
+    Multiples of a number are endless.
+
+    Every factor of a given number is less than or equal to that number.
+    Every multiple of a given number is greater than or equal to that number.
     
- 
+#####################################################################################
+fact of multiples:
+    Multiples = Repeating Cycles
+
+    common Multiples = shared landing spot
+
+    Least Common Multiple (LCM) = The firstshared landing Spot
+
+
+    Every number has two factors that is 1 and the number itself.
+    Multiples of a number are endless.
+
+    Every factor of a given number is less than or equal to that number.
+    Every multiple of a given number is greater than or equal to that number.
+
+
+* situation : two flashing signs are turned on at the same time.
+ The Red sign flashes every 6 seconds. The Blue sign flashes every 8 seconds.
+ When will they flash together for the very first time?
+ red = 6, 12, 18, 24, 30, ...
+ Blue= 8, 16, 24,..
+
+* track laps: two runners starts same, but one slower, 
+  when will both cross starting line together again ?
+
+* celestial objects (like mars and earth)
+    multiples = completes orbits
+
+    common multiples = future alignments
+
+    LCM = the next alignment
+
+    great conjuction:
+
+    jupiter(orbital period) : 12, 24,  (60),72, 84, 96, 108, 120 ...
+    Saturn (op)             :       30,(60),      90,       (120)...
